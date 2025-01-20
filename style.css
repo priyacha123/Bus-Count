@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+VA+Guides&family=Satisfy&display=swap');
+
+body{
+    background: url(/Images/10.webp);
+    background-size: cover;
+}
+ 
+.container {
+    text-align: center;
+    margin: 170px auto;
+    max-width: 500px;
+    padding: 90px 0;
+    background-color: rgb(213, 200, 175);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+ 
+h1 {
+    font-family: "Satisfy", serif;
+    font-size: 55px;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#count-el {
+    font-family: "Merriweather", serif;
+    font-size: 38px;
+    color:rgba(89, 5, 149, 0.733);
+    margin-bottom: 40px;
+}
+
+#save-el{
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    color:rgba(89, 5, 149, 0.733);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+
+}
